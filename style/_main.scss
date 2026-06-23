@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'custom-handwriting';
+    src: url('./CustomHandwriting-Regular.ttf');
+}
+
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: solid 1px red;
+}
+
+
+body{
+    background-color:map-get($main-color, light);
+
+}

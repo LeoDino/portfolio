@@ -1,0 +1,36 @@
+.nav { 
+    background-color: map-get($sub-color, light);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+
+    border-radius: 0.5rem;
+
+    li {
+        list-style: none;
+        padding: 1rem;
+        background-color: map-get($light-extra-color, color3);
+        border-radius: 0.5rem;
+        padding: 1rem 2rem 1rem 2rem;
+        margin: 0.5rem;
+        a {
+            text-decoration: none;
+             color: map-get($sub-color, light);
+             font-weight: bold;
+             font-size: 35px;
+             font-family: 'custom-handwriting';
+
+        }
+
+    }
+
+    li:hover {
+        background-color: map-get($light-extra-color, color1);
+        a {
+            color: map-get($sub-color, light);
+        }
+    }
+
+}

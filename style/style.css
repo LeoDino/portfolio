@@ -1,1 +1,45 @@
-/*# sourceMappingURL=style.css.map */
+.nav {
+  background-color: #091540;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+}
+.nav li {
+  list-style: none;
+  padding: 1rem;
+  background-color: #f7ede2;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 0.5rem;
+}
+.nav li a {
+  text-decoration: none;
+  color: #091540;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: "custom-handwriting";
+}
+.nav li:hover {
+  background-color: #5c5346;
+}
+.nav li:hover a {
+  color: #091540;
+}
+
+@font-face {
+  font-family: "custom-handwriting";
+  src: url("./CustomHandwriting-Regular.ttf");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: solid 1px red;
+}
+
+body {
+  background-color: #F0F2EF;
+}/*# sourceMappingURL=style.css.map */
