@@ -1,3 +1,6 @@
+
+//navbar
+
 .nav { 
     background-color: map-get($sub-color, light);
     display: flex;
@@ -31,6 +34,67 @@
         a {
             color: map-get($sub-color, light);
         }
+    }
+
+}
+
+
+//hero
+
+.hero {
+    background-color: map-get($main-color, light);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+    h1 {
+        font-family: 'custom-handwriting';
+        font-size: 67px;
+        color: map-get($sub-color, light);
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    h3 {
+        font-family: 'custom-handwriting';
+        font-size: 35px;
+        color: map-get($sub-color, light);
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+       background-color: map-get($sub-color, light);
+        padding: 1rem;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    button{
+        background-color: map-get($sub-color, light);
+        width: 35%;
+        padding: 1rem;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 32%;
+        margin-bottom: 1rem;
+        border-radius: 0.5rem;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    button:hover{
+        background-color: map-get($sub-color, dark);
     }
 
 }

@@ -28,6 +28,57 @@
   color: #091540;
 }
 
+.hero {
+  background-color: #F0F2EF;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.hero h1 {
+  font-family: "custom-handwriting";
+  font-size: 67px;
+  color: #091540;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.hero h3 {
+  font-family: "custom-handwriting";
+  font-size: 35px;
+  color: #091540;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  background-color: #091540;
+  padding: 1rem;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.hero button {
+  background-color: #091540;
+  width: 35%;
+  padding: 1rem;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 32%;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+.hero button:hover {
+  background-color: #877B66;
+}
+
 @font-face {
   font-family: "custom-handwriting";
   src: url("./CustomHandwriting-Regular.ttf");
